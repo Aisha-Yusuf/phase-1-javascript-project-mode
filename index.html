@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+   <h1>Welcome to Global Currency Converter !</h1>
+   <div class="converter">
+    <input type="number" id="amount" placeholder="Amount">
+    <select id="from-Currency"></select>
+    <span>to</span>
+    <select id="to-Currency"></select>
+    <button id="convert">Convert</button>
+</div>
+<p id="result"></p>
+<div id="feedbackForm">
+    <button id="thumbsUpButton">👍</button>
+    <button id="thumbsDownButton">👎</button>
+    <form id="userFeedbackForm">
+    
+        <label for="feedback">Your Feedback:</label>
+        <textarea id="feedback" rows="2" cols="50"></textarea>
+        <button type="submit">Submit Feedback</button>
+    
+    </form>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
